@@ -1,0 +1,35 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+
+# ---- Abaqus 求解输出（作业自动生成，勿入库）----
+*.odb
+*.odb_f
+*.sta
+*.msg
+*.dat
+*.prt
+*.sim
+*.lck
+*.log
+*.com
+*.fil
+*.abq
+*.pac
+*.res
+*.stt
+*.mdl
+*.rec
+*.sel
+*.cid
+*.ipm
+*.log
+
+# ---- 插件写出的 INP（如需保留样例，请把下面这行注释掉）----
+Job-*.inp
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
